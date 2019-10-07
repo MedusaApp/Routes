@@ -1,0 +1,25 @@
+{
+    "name": "medusaapp/routes",
+    "description": "MEDUSA Core Basic Personality Package routes",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "David Weiner",
+            "email": "david.l.weiner30030@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "PersonalityRoutes\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "PersonalityRoutes\\ServiceProvider"
+            ]
+        }
+    }
+}
